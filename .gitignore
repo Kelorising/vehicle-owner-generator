@@ -1,0 +1,13 @@
+# A generált nagy CSV
+jarmutulajdonosok.csv
+
+# .NET generált fájlok
+bin/
+obj/
+
+# IDE fájlok
+.vs/
+.vscode/
+
+*.user
+*.suo
