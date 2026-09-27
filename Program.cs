@@ -113,6 +113,8 @@ internal class Program
         Console.WriteLine(
             $"Összes jármű:                    " +
             $"{naturalVehicleCounts.Sum() + legalVehicleCounts.Sum():N0}");
+
+        System.Console.WriteLine("a program véget ért");    
     }
 
     // ============================================================
@@ -873,3 +875,4 @@ internal sealed class FirstNameData
         Female = female;
     }
 }
+ 
