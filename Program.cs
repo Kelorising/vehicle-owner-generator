@@ -12,16 +12,15 @@ internal class Program
     // BEÁLLÍTÁSOK
     // ============================================================
 
-    private const int TotalOwners = 3_640_450;
+    private const int TotalOwners = 2_981_820;
 
-    // A korábban meghatározott becslés alapján:
-    private const int NaturalPersonCount = 3_391_650;
-    private const int LegalPersonCount = 248_800;
+// Tulajdonosok
+    private const int NaturalPersonCount = 2_778_026;
+    private const int LegalPersonCount = 203_794;
 
-    // Az eredeti járműállomány:
-    private const int NaturalPersonVehicles = 4_470_202;
-    private const int LegalPersonVehicles = 870_634;
-
+// Személygépkocsik
+    private const int NaturalPersonVehicles = 3_662_129;
+    private const int LegalPersonVehicles = 712_634;
     private const double SecondFirstNameProbability = 0.10;
     private const double SecondLastNameProbability = 0.10;
 
